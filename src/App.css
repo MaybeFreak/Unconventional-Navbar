@@ -1,0 +1,44 @@
+main {
+  color: black;
+}
+
+#Foreground {
+  background-color: whitesmoke;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  clip-path: polygon(100% 0, 100% 20%, 20% 100%, 0 100%, 0 0);
+}
+
+.wrap {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  filter: drop-shadow(1px 6px 3px rgba(0, 0, 0, 0.5));
+}
+
+.navBar {
+  position: fixed;
+  bottom: 0;
+  left: 20%;
+
+  > ul {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+
+    margin-left: 60dvw;
+
+    transform: translate(0%, -100%);
+
+    > li {
+      font-weight: bold;
+      font-size: 2rem;
+    }
+  }
+}
