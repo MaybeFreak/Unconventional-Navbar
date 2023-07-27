@@ -3,7 +3,7 @@
 ### Introduction
 
 This repo dives into how I created a rather interessting navbar for friends portfolio. The live version can be viewed here: https://faith-guanga.vercel.app. <br/>
-If you prefer following along with a video there is a video version of this walk through on youtube: https://youtu.be/5OonDVN_DxQ.
+If you prefer following along with a video there is a video version of this walk through on <a href="https://youtu.be/dHuzxA0DZPI" target="_blank">Youtube</a>.
 
 ## Let's get into it
   1. Let's start out by creating a new React app, I will be using vite for this project so I run `npm create vite@latest` and then go in and clean up all the boilerplate code.
